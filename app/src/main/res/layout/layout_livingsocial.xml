@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/dealImage"-->
+        <!--android:src="@drawable/ic_launcher"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:background="#ff5522"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:layout_marginRight="15dp"/>-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/deal_merchant"
+            android:background="#998811"
+            android:textStyle="bold"
+            android:text="Hi"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/deal_shortTitle"
+            android:textStyle="italic"
+            android:background="#112255"
+            android:text="there"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
